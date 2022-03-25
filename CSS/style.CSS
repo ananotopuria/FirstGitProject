@@ -4,9 +4,6 @@ body{
     color: #FFFFFF;
     font-weight: 400;
     background: #0F0B30;
-    /* background: linear-gradient(
-        90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);*/
-
 }
 
 *,
@@ -32,7 +29,6 @@ body{
     font-weight: 700;
     font-size: 30.6849px;
     line-height: 46px;
-    /* identical to box height */
     text-align: center;
 }
 .header__inner{
@@ -68,9 +64,7 @@ body{
     color: #FFFFFF;
     text-decoration: none;
 }
-.header__login{
-    /* margin-left: 337px; */
-}
+
 .header__login-link{
     font-style: normal;
     font-weight: 700;
@@ -81,38 +75,20 @@ body{
 }
 .header__register{
     width: 85px;
-    /* height: 30px; */
+    
     margin-left: 23px;
     margin-right: 113px;
-    /* position: relative;
-    
-    z-index: 1;
-     */
-
 }
 .header__register-link {
-    /* padding:12px; */
-    /* font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 30px;
-    text-decoration: none;
-    */
     color: #FFFFFF;
-
-    /*border: 2px solid;
-    border-radius: 12px;
-    padding: 2px;
-    border-color: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%); */
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     padding:12px;
-    /* identical to box height */
     text-align: center;
+    text-decoration: none;
 }
 
 .login-register {
@@ -151,17 +127,6 @@ body{
             mask-composite: exclude;
   }
 
-
-/* .border::after {
-    position: absolute;
-    top: -4px; bottom: -4px;
-    left: -4px; right: -4px;
-    border-image: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%) 1;
-    content: '';
-    z-index: -1;
-    border-radius: 16px;
-} */
-
 .section__one{
     text-align: center;
 }
@@ -179,17 +144,10 @@ body{
     font-weight: 700;
     font-size: 98.2924px;
     line-height: 147px;
-    
-
-/* Linear */
-
     background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-
-/* text-fill-color: transparent; */
-
 }
 .p__mid{
     font-style: normal;
