@@ -1,0 +1,234 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    background: #0F0B30;
+    /* background: linear-gradient(
+        90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);*/
+
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1750;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    margin-top:34px;
+}
+.markai{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.6849px;
+    line-height: 46px;
+    /* identical to box height */
+    text-align: center;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_title {
+    flex-grow: 1;
+}
+
+.menu{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu__list{
+    display: flex;
+    flex-grow:1;
+    list-style: none;
+}
+.menu__list-item{
+    margin: 0 27px;
+}
+
+.menu__list-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header__login{
+    /* margin-left: 337px; */
+}
+.header__login-link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.header__register{
+    width: 85px;
+    /* height: 30px; */
+    margin-left: 23px;
+    margin-right: 113px;
+    /* position: relative;
+    
+    z-index: 1;
+     */
+
+}
+.header__register-link {
+    /* padding:12px; */
+    /* font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    text-decoration: none;
+    */
+    color: #FFFFFF;
+
+    /*border: 2px solid;
+    border-radius: 12px;
+    padding: 2px;
+    border-color: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%); */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding:12px;
+    /* identical to box height */
+    text-align: center;
+}
+
+.login-register {
+    display: flex;
+    align-items: center;
+}
+
+.letsgo {
+    margin-top:25px;
+}
+
+.border {
+    position: relative;
+    padding: 20px 30px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+  }
+  
+.box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+    padding: 5px;
+    background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+  }
+
+
+/* .border::after {
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    border-image: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%) 1;
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+} */
+
+.section__one{
+    text-align: center;
+}
+.title{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 68px;
+    color: #FFFFFF;
+    margin-top: 217px;
+}
+.title__mid{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 98.2924px;
+    line-height: 147px;
+    
+
+/* Linear */
+
+    background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+/* text-fill-color: transparent; */
+
+}
+.p__mid{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin: auto;
+}
+.section__two{
+    text-align: center;
+
+}
+.letsgo-link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.1328px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+}
+.vector__icon{
+    padding: 126px;
+}
+.border__img{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
